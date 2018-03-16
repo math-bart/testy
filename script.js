@@ -18,7 +18,7 @@ function httpGet(url) {
         });
 }
 
-httpGet('https://api.giphy.com' + '/v1/gifs/random?api_key=' + '79d4ejI5WnmHsZqbA6TZOyeG2iB4101D' + '&tag=cat');
+httpGet('https://api.giphy.com/v1/gifs/random?api_key=79d4ejI5WnmHsZqbA6TZOyeG2iB4101D&tag=cat');
 .then(response => console.log('Contents: ' + response))
 .catch(error => console.error('Something went wrong', error));
 
