@@ -21,7 +21,7 @@ function getGif(url) {
 getGif('https://api.giphy.com/v1/gifs/random?api_key=79d4ejI5WnmHsZqbA6TZOyeG2iB4101D&tag=' + 'cat')
 .then(response => {return (
       <div>
-        <a href={this.getUrl()} title='view this on giphy' target='new'>
+        <a href={this} title='view this on giphy' target='new'>
           <img id='gif' src={url} style={{width: '100%', maxWidth: '350px', margin: '0 auto'}}/>
         </a>
       </div>
